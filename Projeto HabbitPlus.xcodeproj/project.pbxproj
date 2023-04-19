@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */; };
+		33D4B5F329F077EC00A3432B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B5F229F077EC00A3432B /* ContentView.swift */; };
+		33D4B5F529F077EE00A3432B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D4B5F429F077EE00A3432B /* Assets.xcassets */; };
+		33D4B5F829F077EE00A3432B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D4B5F729F077EE00A3432B /* Preview Assets.xcassets */; };
+		33D4B60229F077EF00A3432B /* Projeto_HabbitPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60129F077EF00A3432B /* Projeto_HabbitPlusTests.swift */; };
+		33D4B60C29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60B29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift */; };
+		33D4B60E29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D4B5FE29F077EF00A3432B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D4B5E529F077EC00A3432B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D4B5EC29F077EC00A3432B;
+			remoteInfo = "Projeto HabbitPlus";
+		};
+		33D4B60829F077EF00A3432B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D4B5E529F077EC00A3432B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D4B5EC29F077EC00A3432B;
+			remoteInfo = "Projeto HabbitPlus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33D4B5ED29F077EC00A3432B /* Projeto HabbitPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto HabbitPlus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusApp.swift; sourceTree = "<group>"; };
+		33D4B5F229F077EC00A3432B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33D4B5F429F077EE00A3432B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33D4B5F729F077EE00A3432B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33D4B5FD29F077EF00A3432B /* Projeto HabbitPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto HabbitPlusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D4B60129F077EF00A3432B /* Projeto_HabbitPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusTests.swift; sourceTree = "<group>"; };
+		33D4B60729F077EF00A3432B /* Projeto HabbitPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto HabbitPlusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D4B60B29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusUITests.swift; sourceTree = "<group>"; };
+		33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D4B5EA29F077EC00A3432B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4B5FA29F077EF00A3432B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4B60429F077EF00A3432B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D4B5E429F077EC00A3432B = {
+			isa = PBXGroup;
+			children = (
+				33D4B5EF29F077EC00A3432B /* Projeto HabbitPlus */,
+				33D4B60029F077EF00A3432B /* Projeto HabbitPlusTests */,
+				33D4B60A29F077EF00A3432B /* Projeto HabbitPlusUITests */,
+				33D4B5EE29F077EC00A3432B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D4B5EE29F077EC00A3432B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B5ED29F077EC00A3432B /* Projeto HabbitPlus.app */,
+				33D4B5FD29F077EF00A3432B /* Projeto HabbitPlusTests.xctest */,
+				33D4B60729F077EF00A3432B /* Projeto HabbitPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D4B5EF29F077EC00A3432B /* Projeto HabbitPlus */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */,
+				33D4B5F229F077EC00A3432B /* ContentView.swift */,
+				33D4B5F429F077EE00A3432B /* Assets.xcassets */,
+				33D4B5F629F077EE00A3432B /* Preview Content */,
+			);
+			path = "Projeto HabbitPlus";
+			sourceTree = "<group>";
+		};
+		33D4B5F629F077EE00A3432B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B5F729F077EE00A3432B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33D4B60029F077EF00A3432B /* Projeto HabbitPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B60129F077EF00A3432B /* Projeto_HabbitPlusTests.swift */,
+			);
+			path = "Projeto HabbitPlusTests";
+			sourceTree = "<group>";
+		};
+		33D4B60A29F077EF00A3432B /* Projeto HabbitPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B60B29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift */,
+				33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */,
+			);
+			path = "Projeto HabbitPlusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D4B5EC29F077EC00A3432B /* Projeto HabbitPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D4B61129F077EF00A3432B /* Build configuration list for PBXNativeTarget "Projeto HabbitPlus" */;
+			buildPhases = (
+				33D4B5E929F077EC00A3432B /* Sources */,
+				33D4B5EA29F077EC00A3432B /* Frameworks */,
+				33D4B5EB29F077EC00A3432B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Projeto HabbitPlus";
+			productName = "Projeto HabbitPlus";
+			productReference = 33D4B5ED29F077EC00A3432B /* Projeto HabbitPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33D4B5FC29F077EF00A3432B /* Projeto HabbitPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D4B61429F077EF00A3432B /* Build configuration list for PBXNativeTarget "Projeto HabbitPlusTests" */;
+			buildPhases = (
+				33D4B5F929F077EF00A3432B /* Sources */,
+				33D4B5FA29F077EF00A3432B /* Frameworks */,
+				33D4B5FB29F077EF00A3432B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D4B5FF29F077EF00A3432B /* PBXTargetDependency */,
+			);
+			name = "Projeto HabbitPlusTests";
+			productName = "Projeto HabbitPlusTests";
+			productReference = 33D4B5FD29F077EF00A3432B /* Projeto HabbitPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33D4B60629F077EF00A3432B /* Projeto HabbitPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D4B61729F077EF00A3432B /* Build configuration list for PBXNativeTarget "Projeto HabbitPlusUITests" */;
+			buildPhases = (
+				33D4B60329F077EF00A3432B /* Sources */,
+				33D4B60429F077EF00A3432B /* Frameworks */,
+				33D4B60529F077EF00A3432B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D4B60929F077EF00A3432B /* PBXTargetDependency */,
+			);
+			name = "Projeto HabbitPlusUITests";
+			productName = "Projeto HabbitPlusUITests";
+			productReference = 33D4B60729F077EF00A3432B /* Projeto HabbitPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D4B5E529F077EC00A3432B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					33D4B5EC29F077EC00A3432B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					33D4B5FC29F077EF00A3432B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 33D4B5EC29F077EC00A3432B;
+					};
+					33D4B60629F077EF00A3432B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 33D4B5EC29F077EC00A3432B;
+					};
+				};
+			};
+			buildConfigurationList = 33D4B5E829F077EC00A3432B /* Build configuration list for PBXProject "Projeto HabbitPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D4B5E429F077EC00A3432B;
+			productRefGroup = 33D4B5EE29F077EC00A3432B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D4B5EC29F077EC00A3432B /* Projeto HabbitPlus */,
+				33D4B5FC29F077EF00A3432B /* Projeto HabbitPlusTests */,
+				33D4B60629F077EF00A3432B /* Projeto HabbitPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D4B5EB29F077EC00A3432B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4B5F829F077EE00A3432B /* Preview Assets.xcassets in Resources */,
+				33D4B5F529F077EE00A3432B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4B5FB29F077EF00A3432B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4B60529F077EF00A3432B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D4B5E929F077EC00A3432B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4B5F329F077EC00A3432B /* ContentView.swift in Sources */,
+				33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4B5F929F077EF00A3432B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4B60229F077EF00A3432B /* Projeto_HabbitPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4B60329F077EF00A3432B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4B60E29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift in Sources */,
+				33D4B60C29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D4B5FF29F077EF00A3432B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D4B5EC29F077EC00A3432B /* Projeto HabbitPlus */;
+			targetProxy = 33D4B5FE29F077EF00A3432B /* PBXContainerItemProxy */;
+		};
+		33D4B60929F077EF00A3432B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D4B5EC29F077EC00A3432B /* Projeto HabbitPlus */;
+			targetProxy = 33D4B60829F077EF00A3432B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33D4B60F29F077EF00A3432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33D4B61029F077EF00A3432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D4B61229F077EF00A3432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Projeto HabbitPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = A672XMDZSH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.celsolima.Projeto-HabbitPlus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33D4B61329F077EF00A3432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Projeto HabbitPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = A672XMDZSH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.celsolima.Projeto-HabbitPlus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33D4B61529F077EF00A3432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A672XMDZSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.celsolima.Projeto-HabbitPlusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto HabbitPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Projeto HabbitPlus";
+			};
+			name = Debug;
+		};
+		33D4B61629F077EF00A3432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A672XMDZSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.celsolima.Projeto-HabbitPlusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto HabbitPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Projeto HabbitPlus";
+			};
+			name = Release;
+		};
+		33D4B61829F077EF00A3432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A672XMDZSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.celsolima.Projeto-HabbitPlusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Projeto HabbitPlus";
+			};
+			name = Debug;
+		};
+		33D4B61929F077EF00A3432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A672XMDZSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.celsolima.Projeto-HabbitPlusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Projeto HabbitPlus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D4B5E829F077EC00A3432B /* Build configuration list for PBXProject "Projeto HabbitPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D4B60F29F077EF00A3432B /* Debug */,
+				33D4B61029F077EF00A3432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D4B61129F077EF00A3432B /* Build configuration list for PBXNativeTarget "Projeto HabbitPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D4B61229F077EF00A3432B /* Debug */,
+				33D4B61329F077EF00A3432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D4B61429F077EF00A3432B /* Build configuration list for PBXNativeTarget "Projeto HabbitPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D4B61529F077EF00A3432B /* Debug */,
+				33D4B61629F077EF00A3432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D4B61729F077EF00A3432B /* Build configuration list for PBXNativeTarget "Projeto HabbitPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D4B61829F077EF00A3432B /* Debug */,
+				33D4B61929F077EF00A3432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D4B5E529F077EC00A3432B /* Project object */;
+}
