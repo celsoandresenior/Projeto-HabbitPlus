@@ -15,6 +15,7 @@
 		33D4B60E29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */; };
 		33D4B62229F07BF800A3432B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B62129F07BF800A3432B /* SplashView.swift */; };
 		33D4B62429F07C1200A3432B /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B62329F07C1200A3432B /* SplashViewModel.swift */; };
+		33D4B62729F07D1200A3432B /* SplashUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B62629F07D1200A3432B /* SplashUIState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		33D4B62129F07BF800A3432B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		33D4B62329F07C1200A3432B /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		33D4B62629F07D1200A3432B /* SplashUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUIState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		33D4B61A29F07B5900A3432B /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				33D4B62529F07CFC00A3432B /* Model */,
 				33D4B62029F07B9A00A3432B /* ViewModel */,
 				33D4B61F29F07B8E00A3432B /* View */,
 			);
@@ -152,6 +155,14 @@
 				33D4B62329F07C1200A3432B /* SplashViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33D4B62529F07CFC00A3432B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B62629F07D1200A3432B /* SplashUIState.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D4B62729F07D1200A3432B /* SplashUIState.swift in Sources */,
 				33D4B62229F07BF800A3432B /* SplashView.swift in Sources */,
 				33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */,
 				33D4B62429F07C1200A3432B /* SplashViewModel.swift in Sources */,
