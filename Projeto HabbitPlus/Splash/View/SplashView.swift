@@ -16,7 +16,9 @@ struct SplashView: View {
         
         switch state {
         case .loading:
-            Text("Loading")
+            // VelmaImage()
+            // velmaLoad
+            velmaLoading(forma: "Terceira Forma")
         case .goToSignInScreen:
             Text("signin")
         case .goToHomeScreen:
@@ -24,14 +26,61 @@ struct SplashView: View {
         case .error(let msg):
             Text("\(msg)")
         }
-        
-        
-       
+    }
+}
+
+
+// Instancia de View
+struct VelmaImage: View {
+    var body: some View {
+        ZStack {
+            Image("velma")
+                .resizable()
+                .scaledToFill()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .ignoresSafeArea()
+            
+            Text("Primeira Forma")
+                .foregroundColor(.white)
+                .fontWeight(.bold)
+        }
+    }
+}
+
+extension SplashView {
+    var velmaLoad: some View {
+        ZStack {
+            Image("velma")
+                .resizable()
+                .scaledToFill()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .ignoresSafeArea()
+            
+            Text("Segunda Forma")
+                .foregroundColor(.white)
+                .fontWeight(.bold)
+        }
+    }
+}
+
+extension SplashView {
+    func velmaLoading(forma: String) -> some View {
+        ZStack {
+            Image("velma")
+                .resizable()
+                .scaledToFill()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .ignoresSafeArea()
+            
+            Text(forma)
+                .foregroundColor(.white)
+                .fontWeight(.bold)
+        }
     }
 }
 
 struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView(state: .goToHomeScreen)
+        SplashView(state: .loading)
     }
 }
