@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */; };
-		33D4B5F329F077EC00A3432B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B5F229F077EC00A3432B /* ContentView.swift */; };
 		33D4B5F529F077EE00A3432B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D4B5F429F077EE00A3432B /* Assets.xcassets */; };
 		33D4B5F829F077EE00A3432B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D4B5F729F077EE00A3432B /* Preview Assets.xcassets */; };
 		33D4B60229F077EF00A3432B /* Projeto_HabbitPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60129F077EF00A3432B /* Projeto_HabbitPlusTests.swift */; };
 		33D4B60C29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60B29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift */; };
 		33D4B60E29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */; };
+		33D4B62229F07BF800A3432B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B62129F07BF800A3432B /* SplashView.swift */; };
+		33D4B62429F07C1200A3432B /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B62329F07C1200A3432B /* SplashViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		33D4B5ED29F077EC00A3432B /* Projeto HabbitPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto HabbitPlus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusApp.swift; sourceTree = "<group>"; };
-		33D4B5F229F077EC00A3432B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33D4B5F429F077EE00A3432B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D4B5F729F077EE00A3432B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33D4B5FD29F077EF00A3432B /* Projeto HabbitPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto HabbitPlusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		33D4B60729F077EF00A3432B /* Projeto HabbitPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto HabbitPlusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D4B60B29F077EF00A3432B /* Projeto_HabbitPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusUITests.swift; sourceTree = "<group>"; };
 		33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33D4B62129F07BF800A3432B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		33D4B62329F07C1200A3432B /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		33D4B5EF29F077EC00A3432B /* Projeto HabbitPlus */ = {
 			isa = PBXGroup;
 			children = (
+				33D4B61A29F07B5900A3432B /* Splash */,
 				33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */,
-				33D4B5F229F077EC00A3432B /* ContentView.swift */,
 				33D4B5F429F077EE00A3432B /* Assets.xcassets */,
 				33D4B5F629F077EE00A3432B /* Preview Content */,
 			);
@@ -125,6 +127,31 @@
 				33D4B60D29F077EF00A3432B /* Projeto_HabbitPlusUITestsLaunchTests.swift */,
 			);
 			path = "Projeto HabbitPlusUITests";
+			sourceTree = "<group>";
+		};
+		33D4B61A29F07B5900A3432B /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B62029F07B9A00A3432B /* ViewModel */,
+				33D4B61F29F07B8E00A3432B /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		33D4B61F29F07B8E00A3432B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B62129F07BF800A3432B /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33D4B62029F07B9A00A3432B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33D4B62329F07C1200A3432B /* SplashViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D4B5F329F077EC00A3432B /* ContentView.swift in Sources */,
+				33D4B62229F07BF800A3432B /* SplashView.swift in Sources */,
 				33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */,
+				33D4B62429F07C1200A3432B /* SplashViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
