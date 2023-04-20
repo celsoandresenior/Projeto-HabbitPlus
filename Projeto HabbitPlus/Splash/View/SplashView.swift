@@ -10,22 +10,24 @@ import SwiftUI
 struct SplashView: View {
     
     // MARK: States
-    @State var state: SplashUIState = .loading
-    @State var showAlert: Bool = true
+    
+    @ObservedObject var vm: SplashViewModel
     
     var body: some View {
-        
-        switch state {
-        case .loading:
-            // VelmaImage()
-            velmaLoad
-        case .goToSignInScreen:
-            Text("signin")
-        case .goToHomeScreen:
-            Text("home")
-        case .error(let msg):
-            self.velmaLoading(error: msg)
-        }
+        Group {
+            switch vm.uiState {
+            case .loading:
+                // VelmaImage()
+                velmaLoad
+            case .goToSignInScreen:
+                Text("signin")
+            case .goToHomeScreen:
+                Text("home")
+            case .error(let msg):
+                self.velmaLoading(error: msg)
+            }
+            
+        }.onAppear { self.vm.onAppear() }
     }
 }
 
@@ -89,6 +91,6 @@ extension SplashView {
 
 struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView(state: .error("deu merda!"))
+        SplashView(vm: SplashViewModel())
     }
 }

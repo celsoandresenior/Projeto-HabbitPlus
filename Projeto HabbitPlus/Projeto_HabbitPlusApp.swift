@@ -11,7 +11,7 @@ import SwiftUI
 struct Projeto_HabbitPlusApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashView(state: .error("deu merda"))
+            SplashView(vm: SplashViewModel())
         }
     }
 }
