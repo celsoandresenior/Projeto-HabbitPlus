@@ -20,7 +20,7 @@ struct SplashView: View {
                 // VelmaImage()
                 velmaLoad
             case .goToSignInScreen:
-                Text("signin")
+                self.vm.signInView()
             case .goToHomeScreen:
                 Text("home")
             case .error(let msg):

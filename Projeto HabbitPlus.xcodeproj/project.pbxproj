@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33700C5A29F18154008BEC83 /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33700C5929F18154008BEC83 /* SplashViewRouter.swift */; };
+		33700C5D29F181D0008BEC83 /* SignInView().swift in Sources */ = {isa = PBXBuildFile; fileRef = 33700C5C29F181D0008BEC83 /* SignInView().swift */; };
+		33700C6229F18265008BEC83 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33700C6129F18265008BEC83 /* SignInViewModel.swift */; };
 		33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */; };
 		33D4B5F529F077EE00A3432B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D4B5F429F077EE00A3432B /* Assets.xcassets */; };
 		33D4B5F829F077EE00A3432B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D4B5F729F077EE00A3432B /* Preview Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33700C5929F18154008BEC83 /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
+		33700C5C29F181D0008BEC83 /* SignInView().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInView().swift"; sourceTree = "<group>"; };
+		33700C6129F18265008BEC83 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		33D4B5ED29F077EC00A3432B /* Projeto HabbitPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto HabbitPlus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_HabbitPlusApp.swift; sourceTree = "<group>"; };
 		33D4B5F429F077EE00A3432B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +81,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33700C5B29F181B9008BEC83 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				33700C6029F181F3008BEC83 /* Model */,
+				33700C5F29F181EA008BEC83 /* ViewModel */,
+				33700C5E29F181E3008BEC83 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		33700C5E29F181E3008BEC83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33700C5C29F181D0008BEC83 /* SignInView().swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33700C5F29F181EA008BEC83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33700C6129F18265008BEC83 /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33700C6029F181F3008BEC83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		33D4B5E429F077EC00A3432B = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +137,7 @@
 		33D4B5EF29F077EC00A3432B /* Projeto HabbitPlus */ = {
 			isa = PBXGroup;
 			children = (
+				33700C5B29F181B9008BEC83 /* SignIn */,
 				33D4B61A29F07B5900A3432B /* Splash */,
 				33D4B5F029F077EC00A3432B /* Projeto_HabbitPlusApp.swift */,
 				33D4B5F429F077EE00A3432B /* Assets.xcassets */,
@@ -153,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				33D4B62329F07C1200A3432B /* SplashViewModel.swift */,
+				33700C5929F18154008BEC83 /* SplashViewRouter.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -296,9 +337,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D4B62729F07D1200A3432B /* SplashUIState.swift in Sources */,
+				33700C6229F18265008BEC83 /* SignInViewModel.swift in Sources */,
 				33D4B62229F07BF800A3432B /* SplashView.swift in Sources */,
+				33700C5A29F18154008BEC83 /* SplashViewRouter.swift in Sources */,
 				33D4B5F129F077EC00A3432B /* Projeto_HabbitPlusApp.swift in Sources */,
 				33D4B62429F07C1200A3432B /* SplashViewModel.swift in Sources */,
+				33700C5D29F181D0008BEC83 /* SignInView().swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
