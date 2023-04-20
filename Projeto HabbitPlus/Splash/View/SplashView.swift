@@ -11,20 +11,20 @@ struct SplashView: View {
     
     // MARK: States
     @State var state: SplashUIState = .loading
+    @State var showAlert: Bool = true
     
     var body: some View {
         
         switch state {
         case .loading:
             // VelmaImage()
-            // velmaLoad
-            velmaLoading(forma: "Terceira Forma")
+            velmaLoad
         case .goToSignInScreen:
             Text("signin")
         case .goToHomeScreen:
             Text("home")
         case .error(let msg):
-            Text("\(msg)")
+            self.velmaLoading(error: msg)
         }
     }
 }
@@ -34,7 +34,7 @@ struct SplashView: View {
 struct VelmaImage: View {
     var body: some View {
         ZStack {
-            Image("velma")
+            Image("velma1")
                 .resizable()
                 .scaledToFill()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -42,7 +42,7 @@ struct VelmaImage: View {
             
             Text("Primeira Forma")
                 .foregroundColor(.white)
-                .fontWeight(.bold)
+                .font(.system(size: 36, weight: .black, design: .serif))
         }
     }
 }
@@ -50,7 +50,7 @@ struct VelmaImage: View {
 extension SplashView {
     var velmaLoad: some View {
         ZStack {
-            Image("velma")
+            Image("velma1")
                 .resizable()
                 .scaledToFill()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -58,29 +58,37 @@ extension SplashView {
             
             Text("Segunda Forma")
                 .foregroundColor(.white)
-                .fontWeight(.bold)
+                .font(.system(size: 36, weight: .black, design: .serif))
         }
     }
 }
 
 extension SplashView {
-    func velmaLoading(forma: String) -> some View {
+    func velmaLoading(error: String? = nil) -> some View {
         ZStack {
-            Image("velma")
+            Image("mikasa")
                 .resizable()
                 .scaledToFill()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .ignoresSafeArea()
+            if let error = error {
+                Text("")
+                    .alert(isPresented: .constant(true)) {
+                        Alert(title: Text("putaria"),
+                              message: Text(error).foregroundColor(.white).font(.system(size: 36, weight: .black, design: .serif)),
+                              dismissButton: .default(Text("OK!")) {
+                                //Faz algo quando some o alerta
+                            }
+                        )
+                    }
+            }
             
-            Text(forma)
-                .foregroundColor(.white)
-                .fontWeight(.bold)
         }
     }
 }
 
 struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView(state: .loading)
+        SplashView(state: .error("deu merda!"))
     }
 }
