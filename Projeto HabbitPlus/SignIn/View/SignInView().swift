@@ -20,8 +20,9 @@ extension SignInView {
     func presentView() -> some View {
         ZStack {
             Image("tatsumaki")
+                .resizable()
+                .scaledToFill()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .padding(.bottom, 00)
                 .ignoresSafeArea()
                 
         }
